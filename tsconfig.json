@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESnext",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "outDir": "dist-legacy"
+    },
+    "include": [
+        "proposal-decorators/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
